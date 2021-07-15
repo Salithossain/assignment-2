@@ -1,0 +1,120 @@
+/* fontstyle */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*-----------common-style-------- */
+/* body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+    background-color: #FFFFFF;
+} */
+
+/* ---------style for other section------------*/
+
+.top-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D25A0;
+    padding: 10vh 15vw;
+}
+
+.top{
+     font-size: 64px;
+    color: #FFFFFF;
+    font-weight: bold;
+   
+}
+.button{
+    text-decoration: none;
+    background-color: #E02C6D; 
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 27px;
+    
+}
+.image-size >img{
+   width: 40vw;
+   
+}
+.image-size:hover{
+    transform: rotate(45deg);
+}
+/*------------ players_details_section-------------- */
+
+
+.player-details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #FFFFFF;
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: -5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+      
+}
+.player{
+    width: 310px;
+    height: 474px;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 27px;
+    /* box-shadow: 0 0 10px; */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 300px;
+    height: 256px;
+} 
+.player h3{
+    font-size: 28px;
+    line-height: 40px;
+}
+.player p{
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 10px;
+    
+}
+/* ------FOOTER-PART----- */
+.footer-part img{
+   width: 25vw;
+}    
+.footer-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.social-link{
+    display: flex;
+    gap: 15px;
+    justify-content: center; 
+}
+.icon-center p{
+    text-align: center;
+}
+.fa-dribbble{
+    color: darkgray;
+    border-radius: 18px;
+    background-color:lightgrey ;
+}
+.fa-instagram{
+    color: darkgray;
+    border-radius: 18px;
+    background-color:lightgrey ;
+}
+.fa-youtube{
+    color: darkgray;
+    border-radius: 18px;
+    background-color:lightgrey ;
+}
+.fa-twitter{
+    color: darkgray;
+    border-radius: 18px;
+    background-color:lightgrey ;
+}
